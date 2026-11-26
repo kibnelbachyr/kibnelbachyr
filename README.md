@@ -25,8 +25,10 @@ An Apache-2.0 experimental reference implementation exploring the separation of 
 
 | Project | Focus | Status |
 | --- | --- | --- |
-| [video2doc-ai](https://github.com/kibnelbachyr/video2doc-ai) | Multimodal video-to-documentation pipeline using Azure AI, FastAPI and Bicep | Proof of value |
+| [video2doc-ai Community](https://github.com/kibnelbachyr/video2doc-ai-community) | Multimodal video-to-documentation pipeline using Azure AI, FastAPI and Bicep; 12 verified regression tests and a Python dependency audit | [v0.1.0 experimental](https://github.com/kibnelbachyr/video2doc-ai-community/releases/tag/v0.1.0) · Apache-2.0 |
 | [alz-terraform-accelerator](https://github.com/kibnelbachyr/alz-terraform-accelerator) | Azure landing zone accelerator from Microsoft's upstream project | Upstream reference |
+
+The community edition validates credential-free execution and synthetic media components ([CI evidence](https://github.com/kibnelbachyr/video2doc-ai-community/actions/runs/45768702818)); live-model quality and production readiness remain unvalidated.
 
 ## What I am exploring next
 
