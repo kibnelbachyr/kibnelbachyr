@@ -19,6 +19,10 @@ I came up through engineering. I remain interested in the distance between a com
 
 ## Selected work and upstream reference
 
+**Flagship — [Governed Agent Lab](https://github.com/kibnelbachyr/governed-agent-lab-public)**
+
+An Apache-2.0 experimental reference implementation exploring the separation of AI recommendations from execution authority. The offline prototype demonstrates deterministic policy checks, simulated human authorization, replay protection and application-level audit evidence. Its 19 unit tests, 16 synthetic scenarios and two smoke tests passed on Python 3.11 and 3.13 ([CI evidence](https://github.com/kibnelbachyr/governed-agent-lab-public/actions/runs/45760999145)). It uses a deterministic fake provider, not a live LLM or a production security boundary.
+
 | Project | Focus | Status |
 | --- | --- | --- |
 | [video2doc-ai](https://github.com/kibnelbachyr/video2doc-ai) | Multimodal video-to-documentation pipeline using Azure AI, FastAPI and Bicep | Proof of value |
