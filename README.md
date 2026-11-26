@@ -1,6 +1,6 @@
 # Khalid IBNELBACHYR
 
-**Cloud, Data & AI Services Lead · Cloud Architect · Strategy & Frontier Advisor**
+**Cloud, Data & AI Services Lead · Solutions Architect · Strategy & Frontier Advisor**
 
 ![From infrastructure to intelligence — cloud systems, applied AI and engineering judgment](assets/engineering-banner.svg)
 
