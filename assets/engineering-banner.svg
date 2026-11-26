@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-labelledby="title desc">
+  <title id="title">From infrastructure to intelligence.</title>
+  <desc id="desc">A restrained midnight-blue engineering banner with a geometric network transitioning from stacked infrastructure to connected nodes.</desc>
+  <rect x="1" y="1" width="1198" height="268" rx="18" fill="#101925" stroke="#394a5d" stroke-width="2"/>
+  <g stroke="#354658" stroke-width="1" opacity=".42">
+    <path d="M715 18v234M775 18v234M835 18v234M895 18v234M955 18v234M1015 18v234M1075 18v234M1135 18v234M695 55h475M695 115h475M695 175h475M695 235h475"/>
+  </g>
+  <rect x="44" y="41" width="5" height="188" rx="2.5" fill="#78c9c1"/>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+    <text x="74" y="74" font-size="16" letter-spacing="3.1" font-weight="600" fill="#9db0c4">ENGINEERING / ARCHITECTURE</text>
+    <text x="72" y="137" font-size="44" font-weight="650" fill="#f3f6f9">From infrastructure</text>
+    <text x="72" y="189" font-size="44" font-weight="650" fill="#78c9c1">to intelligence.</text>
+    <text x="74" y="228" font-size="19" fill="#b9c9d8">Cloud systems · Applied AI · Engineering judgment</text>
+  </g>
+  <g fill="#152436" stroke="#7296b6" stroke-width="2.2" stroke-linejoin="round">
+    <path d="m725 98 66-29 66 29-66 29z"/>
+    <path d="m725 98 66 29 66-29v36l-66 29-66-29z"/>
+    <path d="m725 134 66 29 66-29v36l-66 29-66-29z"/>
+    <path d="M791 127v72" fill="none"/>
+  </g>
+  <g stroke="#78c9c1" stroke-width="2.2" fill="none" stroke-linecap="round">
+    <path d="M857 116h54l43-43h78l72 62-72 62h-78l-43-45h-54"/>
+    <path d="M954 73v124m78-124v124m-78-124 78 124m0-124-78 124m-78-62h228" opacity=".65"/>
+  </g>
+  <g fill="#101925" stroke="#78c9c1" stroke-width="2.5">
+    <circle cx="911" cy="116" r="6"/><circle cx="911" cy="152" r="6"/>
+    <circle cx="954" cy="73" r="8"/><circle cx="954" cy="197" r="8"/>
+    <circle cx="1032" cy="73" r="8"/><circle cx="1032" cy="197" r="8"/>
+    <circle cx="1104" cy="135" r="9" fill="#78c9c1"/>
+    <circle cx="993" cy="135" r="10" fill="#78c9c1"/>
+  </g>
+</svg>

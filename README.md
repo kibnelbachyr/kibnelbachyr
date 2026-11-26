@@ -2,7 +2,7 @@
 
 **Cloud, Data & AI Services Lead · Cloud Architect · Engineer**
 
-### From infrastructure to intelligence.
+![From infrastructure to intelligence — cloud systems, applied AI and engineering judgment](assets/engineering-banner.svg)
 
 I work at the intersection of engineering, architecture and technology leadership. My focus is on building systems that are secure, resilient, governable and economically sustainable — and on understanding the trade-offs that make them so.
 
@@ -17,7 +17,7 @@ I came up through engineering. I remain interested in the distance between a com
 | Architecture & distributed systems | Reliability, architectural decisions, observability, system boundaries |
 | Economics & governance | FinOps, model economics, security, sovereignty and responsible adoption |
 
-## Selected work
+## Selected work and upstream reference
 
 | Project | Focus | Status |
 | --- | --- | --- |
