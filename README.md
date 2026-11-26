@@ -4,48 +4,51 @@
 
 ![From infrastructure to intelligence — cloud systems, applied AI and engineering judgment](assets/engineering-banner.svg)
 
-I work at the intersection of engineering, architecture and technology leadership. My focus is on building systems that are secure, resilient, governable and economically sustainable — and on understanding the trade-offs that make them so.
+I lead engineering work at the intersection of cloud platforms, data, AI and technology strategy. I am interested in the distance between a compelling prototype and a system an enterprise can actually depend on — and in the architectural, economic and governance decisions that close that gap.
 
-I came up through engineering. I remain interested in the distance between a compelling proof of concept and a system that an enterprise can actually depend on.
+My work spans infrastructure through intelligence: designing resilient platforms, making AI systems governable, and connecting technical decisions to measurable business value.
 
-## Engineering focus
+## Selected engineering work
 
-| Discipline | What I explore |
+### [Governed Agent Lab](https://github.com/kibnelbachyr/governed-agent-lab-public)
+
+**Agentic AI · Control-plane engineering · Human authorization**
+
+An experimental reference implementation exploring how AI recommendations can be separated from execution authority. It demonstrates deterministic policy enforcement, simulated human approval bound to recommendation evidence, replay protection and application-level audit records.
+
+- [v0.3.0 experimental release](https://github.com/kibnelbachyr/governed-agent-lab-public/releases/tag/v0.3.0) · Apache-2.0
+- [Verified CI](https://github.com/kibnelbachyr/governed-agent-lab-public/actions/runs/45772847118): 19 unit tests, 16 synthetic scenarios and two smoke tests on each of Python 3.11 and 3.13.
+- Uses a deterministic fake model; not an authenticated production security boundary or a live-model evaluation.
+
+### [video2doc-ai Community](https://github.com/kibnelbachyr/video2doc-ai-community)
+
+**Multimodal AI · Pipeline architecture · Reproducible engineering**
+
+An experimental video-to-documentation pipeline combining timestamped media extraction, structured documentation generation, a FastAPI service and Azure infrastructure templates. Its credential-free baseline separates offline component verification from live-model evaluation.
+
+- [v0.1.0 experimental release](https://github.com/kibnelbachyr/video2doc-ai-community/releases/tag/v0.1.0) · Apache-2.0
+- [Verified CI](https://github.com/kibnelbachyr/video2doc-ai-community/actions/runs/45768702818): 9 Python and 3 JavaScript regression tests, real synthetic-media processing and Python dependency advisory checks.
+- Live-model quality, production security, scalability and cost remain unvalidated.
+
+## Engineering interests
+
+| Domain | Focus |
 | --- | --- |
-| Cloud & platform engineering | Landing zones, infrastructure as code, identity, networking, developer platforms |
-| AI & agentic systems | Multimodal pipelines, agent orchestration, evaluation, human oversight |
-| Architecture & distributed systems | Reliability, architectural decisions, observability, system boundaries |
-| Economics & governance | FinOps, model economics, security, sovereignty and responsible adoption |
+| Cloud & platform engineering | Landing zones, identity, networking, infrastructure as code and developer platforms |
+| Agentic & applied AI | Agent orchestration, multimodal pipelines, evaluations, human oversight and operational controls |
+| Architecture & reliability | System boundaries, architectural decisions, resilience, observability and lifecycle engineering |
+| Economics & governance | AI-assisted FinOps, model economics, security, sovereignty and responsible adoption |
 
-## Selected work and upstream reference
+## Exploring next
 
-**Flagship — [Governed Agent Lab](https://github.com/kibnelbachyr/governed-agent-lab-public)**
-
-An Apache-2.0 experimental reference implementation exploring the separation of AI recommendations from execution authority. The offline prototype demonstrates deterministic policy checks, simulated human authorization, replay protection and application-level audit evidence. Its 19 unit tests, 16 synthetic scenarios and two smoke tests passed on Python 3.11 and 3.13 ([CI evidence](https://github.com/kibnelbachyr/governed-agent-lab-public/actions/runs/45760999145)). It uses a deterministic fake provider, not a live LLM or a production security boundary.
-
-| Project | Focus | Status |
-| --- | --- | --- |
-| [video2doc-ai Community](https://github.com/kibnelbachyr/video2doc-ai-community) | Multimodal video-to-documentation pipeline using Azure AI, FastAPI and Bicep; 12 verified regression tests and a Python dependency audit | [v0.1.0 experimental](https://github.com/kibnelbachyr/video2doc-ai-community/releases/tag/v0.1.0) · Apache-2.0 |
-| [alz-terraform-accelerator](https://github.com/kibnelbachyr/alz-terraform-accelerator) | Azure landing zone accelerator from Microsoft's upstream project | Upstream reference |
-
-The community edition validates credential-free execution and synthetic media components ([CI evidence](https://github.com/kibnelbachyr/video2doc-ai-community/actions/runs/45768702818)); live-model quality and production readiness remain unvalidated.
-
-## What I am exploring next
-
-- Production-oriented AI agents: evaluation, human approval, auditability and operational control.
-- Cloud platform blueprints: reproducible architecture patterns and explicit design trade-offs.
-- LLM gateways: model routing, resilience, performance and cost.
-- Engineering fieldnotes: lessons, decisions and reproducible experiments.
-
-These are areas of exploration, not claims of completed projects.
+AI-assisted cloud cost optimization, evidence-driven incident diagnosis, governed infrastructure automation and LLM gateways. These are research and development directions, not claims of completed or production-ready systems.
 
 ## Engineering principles
 
-- Start with the problem, not the technology.
-- Make architectural decisions explicit and revisitable.
-- Treat security, reliability and cost as design constraints, not afterthoughts.
-- Measure before making performance or quality claims.
-- Distinguish experimentation from production readiness.
+- Start with the problem and make architectural trade-offs explicit.
+- Treat security, reliability, governance and cost as design constraints.
+- Make evidence reproducible; distinguish a tested property from an assumption.
+- Keep human accountability at consequential decision boundaries.
 - Use AI to accelerate engineering, not outsource judgment.
 
 ---
