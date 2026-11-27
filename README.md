@@ -2,66 +2,72 @@
 
 **Cloud, Data & AI Services Lead · Solutions Architect · Strategy & Frontier Advisor**
 
-![From infrastructure to intelligence — cloud systems, applied AI and engineering judgment](assets/engineering-banner.svg)
+![From infrastructure to intelligence. Cloud systems, applied AI and engineering judgment.](assets/engineering-banner.svg)
 
-I came up through engineering and now lead cloud, data and AI services. My work connects platform architecture, cloud economics and applied AI with the decisions that make systems reliable, governable and useful.
-
-I am interested in the distance between a convincing prototype and a system an enterprise can depend on. The projects below make that question concrete through reproducible experiments, explicit boundaries and evidence.
+I lead cloud, data and AI services in France. I came to that work through platform engineering, and I still like to start an architecture discussion with a concrete decision. Who can approve a change? Which costs can we defend? What evidence would make us reconsider a design?
 
 ## Selected engineering work
 
-### [Governed Agent Lab](https://github.com/kibnelbachyr/governed-agent-lab-public)
+Three experimental, Apache-2.0 projects you can explore without cloud credentials.
 
-**Agentic AI · Control-plane engineering · Human authorization**
-
-Explore how an AI recommendation can remain separate from execution authority. Try an offline fictional retention change, approve or reject it, and inspect the decision record.
-
-[Quickstart](https://github.com/kibnelbachyr/governed-agent-lab-public/blob/main/README.md) · [v0.4.0 experimental pre-release](https://github.com/kibnelbachyr/governed-agent-lab-public/releases/tag/v0.4.0) · [CI evidence](https://github.com/kibnelbachyr/governed-agent-lab-public/actions/runs/45909054667)
-
-51 unit tests and 31 synthetic scenarios per Python interpreter. No live model or authenticated production security boundary.
-
-### [Azure Cost Intelligence](https://github.com/kibnelbachyr/azure-cost-intelligence)
-
-**Cloud economics · FinOps · Evidence-driven recommendations**
-
-Evaluate a deterministic financial evidence layer and bounded AI-assisted recommendations using fictional cost data. Try the offline conformance evaluation; no Azure account is required.
-
-[Quickstart](https://github.com/kibnelbachyr/azure-cost-intelligence#quickstart--evaluate-fictional-cost-data) · [v0.1.0 experimental pre-release](https://github.com/kibnelbachyr/azure-cost-intelligence/releases/tag/v0.1.0) · [Release evidence](https://github.com/kibnelbachyr/azure-cost-intelligence/blob/main/docs/evidence/v0.1.0.md)
-
-48 tests, 19 scenarios and 507 checks across 57 repeated executions. No live Azure/model validation or realized savings claim.
-
-### [Video2Doc AI Community](https://github.com/kibnelbachyr/video2doc-ai-community)
-
-**Multimodal AI · Knowledge · Pipeline engineering**
-
-Explore a video-to-Markdown architecture combining speech transcription, visual context and structured documentation. Try the credential-free mock CLI or local API; the mock output is fictional, not actual video analysis.
-
-[Quickstart](https://github.com/kibnelbachyr/video2doc-ai-community/blob/main/README.md) · [v0.2.0 experimental pre-release](https://github.com/kibnelbachyr/video2doc-ai-community/releases/tag/v0.2.0) · [CI evidence](https://github.com/kibnelbachyr/video2doc-ai-community/actions/runs/45911493736)
-
-28 Python and 3 JavaScript tests, synthetic-media processing and offline evaluator self-tests. Live quality, production security and cost remain unvalidated.
-
-All three releases are experimental and Apache-2.0 licensed. Their evidence is deliberately scoped to reproducible offline behavior.
-
-## Engineering interests
-
-| Domain | Focus |
+| Project | Try it locally |
 | --- | --- |
-| Cloud & platform engineering | Landing zones, identity, networking, infrastructure as code and developer platforms |
-| Agentic & applied AI | Agent orchestration, multimodal pipelines, evaluations, human oversight and operational controls |
-| Architecture & reliability | System boundaries, architectural decisions, resilience, observability and lifecycle engineering |
-| Economics & governance | AI-assisted FinOps, model economics, security, sovereignty and responsible adoption |
+| **[Governed Agent Lab](https://github.com/kibnelbachyr/governed-agent-lab-public)** | Approve or reject a fictional storage-retention change, then inspect what the controller recorded. [Run the lab](https://github.com/kibnelbachyr/governed-agent-lab-public/blob/main/README.md#quickstart--no-credentials) |
+| **[Azure Cost Intelligence](https://github.com/kibnelbachyr/azure-cost-intelligence)** | Give the evaluator fictional cost data and inspect how it handles overlapping savings estimates and missing prices. [Run the evaluation](https://github.com/kibnelbachyr/azure-cost-intelligence/blob/main/README.md#quickstart--evaluate-fictional-cost-data) |
+| **[Video2Doc AI Community](https://github.com/kibnelbachyr/video2doc-ai-community)** | Generate a fictional Markdown guide with the mock CLI, or walk through the same workflow in a local browser. [Try the pipeline](https://github.com/kibnelbachyr/video2doc-ai-community/blob/main/README.md#quickstart--no-azure-credentials) |
 
-## Exploring next
+## Inside two of the builds
 
-Evidence-driven incident diagnosis, governed infrastructure automation and LLM gateways. These are research and development directions, not claims of completed or production-ready systems.
+### Governed Agent Lab · Who can change the resource?
 
-## Engineering principles
+A simulated model proposes a retention change. The controller checks policy before asking for a decision. On approval, it rechecks the evidence before updating the fictional inventory in SQLite.
 
-- Start with the problem and make architectural trade-offs explicit.
-- Treat security, reliability, governance and cost as design constraints.
-- Make evidence reproducible; distinguish a tested property from an assumption.
-- Keep human accountability at consequential decision boundaries.
-- Use AI to accelerate engineering, not outsource judgment.
+```mermaid
+flowchart TD
+    P["Model proposal"] --> C["Policy check"]
+    C -->|Pass| H{"Reviewer decision"}
+    C -->|Deny| N["No change"]
+    H -->|Reject| N
+    H -->|Approve| V["Recheck approval and state"]
+    V -->|Valid| D[("SQLite inventory")]
+    V -->|Stale| N
+    classDef component fill:#152436,stroke:#7296B6,color:#F3F6F9
+    classDef decision fill:#152436,stroke:#78C9C1,color:#F3F6F9,stroke-width:2px
+    classDef endpoint fill:#243344,stroke:#9DB0C4,color:#F3F6F9
+    class P,C,V component
+    class H decision
+    class N,D endpoint
+```
+
+### Video2Doc · What did the speaker say, and what was on screen?
+
+A walkthrough can show a step the speaker never names. The pipeline brings speech and visual context together when drafting the guide. The offline demo supplies fictional inputs for both branches.
+
+```mermaid
+flowchart LR
+    V["Recording"] --> T["Transcript"]
+    V --> F["Sampled frames"]
+    F --> O["Captions and OCR"]
+    T --> G["Draft generation"]
+    O --> G
+    G --> M["Markdown guide"]
+    classDef component fill:#152436,stroke:#7296B6,color:#F3F6F9
+    classDef endpoint fill:#243344,stroke:#9DB0C4,color:#F3F6F9
+    class T,F,O,G component
+    class V,M endpoint
+```
+
+## Release evidence
+
+| Experimental release | What the offline checks cover |
+| --- | --- |
+| [Governed Agent Lab v0.4.0](https://github.com/kibnelbachyr/governed-agent-lab-public/releases/tag/v0.4.0) | 51 unit tests per interpreter. The same 31 synthetic scenarios run three times on both Python 3.11 and 3.13. [Release CI](https://github.com/kibnelbachyr/governed-agent-lab-public/actions/runs/45909054667) |
+| [Azure Cost Intelligence v0.1.0](https://github.com/kibnelbachyr/azure-cost-intelligence/releases/tag/v0.1.0) | 19 fictional scenarios, 57 executions and 507 checks against scripted responses. Realized savings and live model quality remain unmeasured. [Evaluation record](https://github.com/kibnelbachyr/azure-cost-intelligence/blob/main/docs/evidence/v0.1.0.md) |
+| [Video2Doc AI Community v0.2.0](https://github.com/kibnelbachyr/video2doc-ai-community/releases/tag/v0.2.0) | 28 Python and 3 JavaScript tests. Coverage includes synthetic media processing and credential-free execution. Live transcription and generation quality remain unmeasured. [Release CI](https://github.com/kibnelbachyr/video2doc-ai-community/actions/runs/45911493736) |
+
+## What I’m exploring
+
+How incident diagnosis tools can show the evidence behind a proposed fix, how platform teams can delegate infrastructure changes safely, and where an LLM gateway should enforce cost and access decisions.
 
 ---
 
