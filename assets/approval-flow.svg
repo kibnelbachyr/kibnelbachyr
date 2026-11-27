@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="413" viewBox="0 0 540 413" role="img" aria-labelledby="title desc">
+<title id="title">Governed Agent Lab</title><desc id="desc">The policy check, reviewer decision and evidence recheck can each stop a proposed change. Only an approved, current proposal updates the fictional inventory.</desc>
+<rect x="1" y="1" width="538" height="411" rx="16" fill="#101925" stroke="#394a5d" stroke-width="2"/>
+<g font-family="DejaVu Sans, Arial, sans-serif" text-anchor="middle"><path d="M154 72V104" fill="none" stroke="#7296b6" stroke-width="2.5" stroke-linejoin="round"/><path d="M149 97l5 7 5-7" fill="none" stroke="#7296b6" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M154 152V184" fill="none" stroke="#7296b6" stroke-width="2.5" stroke-linejoin="round"/><path d="M149 177l5 7 5-7" fill="none" stroke="#7296b6" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M154 232V264" fill="none" stroke="#7296b6" stroke-width="2.5" stroke-linejoin="round"/><path d="M149 257l5 7 5-7" fill="none" stroke="#7296b6" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M154 312V344" fill="none" stroke="#7296b6" stroke-width="2.5" stroke-linejoin="round"/><path d="M149 337l5 7 5-7" fill="none" stroke="#7296b6" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M276 128H380V288H276 M276 208H399" fill="none" stroke="#7296b6" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M392 203l7 5-7 5" fill="none" stroke="#7296b6" stroke-width="2.5" stroke-linejoin="round"/>
+<text x="326" y="119" font-size="18" fill="#b9c9d8">Denied</text>
+<text x="331" y="199" font-size="18" fill="#b9c9d8">Rejected</text>
+<text x="326" y="279" font-size="18" fill="#b9c9d8">Stale</text>
+<rect x="32" y="24" width="244" height="48" rx="8" fill="#152436" stroke="#7296b6" stroke-width="2"/><text x="154" y="55" font-size="20" fill="#f3f6f9">Model proposal</text>
+<rect x="32" y="104" width="244" height="48" rx="8" fill="#152436" stroke="#7296b6" stroke-width="2"/><text x="154" y="135" font-size="20" fill="#f3f6f9">Policy check</text>
+<rect x="32" y="184" width="244" height="48" rx="8" fill="#1c353e" stroke="#78c9c1" stroke-width="2"/><text x="154" y="215" font-size="20" fill="#f3f6f9">Human review</text>
+<rect x="32" y="264" width="244" height="48" rx="8" fill="#152436" stroke="#7296b6" stroke-width="2"/><text x="154" y="295" font-size="20" fill="#f3f6f9">Recheck evidence</text>
+<rect x="32" y="344" width="244" height="48" rx="8" fill="#1c353e" stroke="#78c9c1" stroke-width="2"/><text x="154" y="375" font-size="20" fill="#f3f6f9">Update SQLite</text>
+<rect x="400" y="184" width="126" height="48" rx="8" fill="#152436" stroke="#7296b6" stroke-width="2"/><text x="463" y="215" font-size="20" fill="#f3f6f9">No change</text></g>
+</svg>
