@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="326" viewBox="0 0 540 326" role="img" aria-labelledby="title desc">
+<title id="title">Video2Doc AI Community</title><desc id="desc">A recording supplies a transcript and sampled frames. Captions and OCR from the frames join the transcript in draft generation, which produces a Markdown guide.</desc>
+<rect x="1" y="1" width="538" height="324" rx="16" fill="#101925" stroke="#394a5d" stroke-width="2"/>
+<g font-family="DejaVu Sans, Arial, sans-serif" text-anchor="middle"><path d="M270 72V91H131V112 M270 91H409V112" fill="none" stroke="#7296b6" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M126 105l5 7 5-7" fill="none" stroke="#7296b6" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M404 105l5 7 5-7" fill="none" stroke="#7296b6" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M131 160V211H162 M409 160V165 M409 189V211H378" fill="none" stroke="#7296b6" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M155 206l7 5-7 5 M385 206l-7 5 7 5" fill="none" stroke="#7296b6" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M270 235V258" fill="none" stroke="#7296b6" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M265 251l5 7 5-7" fill="none" stroke="#7296b6" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="174" y="24" width="192" height="48" rx="8" fill="#152436" stroke="#7296b6" stroke-width="2"/><text x="270" y="55" font-size="20" fill="#f3f6f9">Recording</text>
+<rect x="26" y="112" width="210" height="48" rx="8" fill="#152436" stroke="#7296b6" stroke-width="2"/><text x="131" y="143" font-size="20" fill="#f3f6f9">Speech transcript</text>
+<rect x="304" y="112" width="210" height="48" rx="8" fill="#152436" stroke="#7296b6" stroke-width="2"/><text x="409" y="143" font-size="20" fill="#f3f6f9">Sampled frames</text>
+<text x="430" y="182" font-size="18" fill="#b9c9d8">Captions + OCR</text>
+<rect x="162" y="187" width="216" height="48" rx="8" fill="#152436" stroke="#7296b6" stroke-width="2"/><text x="270" y="218" font-size="20" fill="#f3f6f9">Draft generation</text>
+<rect x="162" y="258" width="216" height="48" rx="8" fill="#1c353e" stroke="#78c9c1" stroke-width="2"/><text x="270" y="289" font-size="20" fill="#f3f6f9">Markdown guide</text></g>
+</svg>
