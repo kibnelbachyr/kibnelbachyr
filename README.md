@@ -16,8 +16,8 @@ My work spans infrastructure through intelligence: designing resilient platforms
 
 An experimental reference implementation exploring how AI recommendations can be separated from execution authority. It demonstrates deterministic policy enforcement, simulated human approval bound to recommendation evidence, replay protection and application-level audit records.
 
-- [v0.3.0 experimental release](https://github.com/kibnelbachyr/governed-agent-lab-public/releases/tag/v0.3.0) · Apache-2.0
-- [Verified CI](https://github.com/kibnelbachyr/governed-agent-lab-public/actions/runs/45772847118): 19 unit tests, 16 synthetic scenarios and two smoke tests on each of Python 3.11 and 3.13.
+- [v0.4.0 experimental release](https://github.com/kibnelbachyr/governed-agent-lab-public/releases/tag/v0.4.0) · Apache-2.0
+- [Verified CI](https://github.com/kibnelbachyr/governed-agent-lab-public/actions/runs/45909054667): 51 unit tests, 31 synthetic scenarios and two smoke tests on each of Python 3.11 and 3.13.
 - Uses a deterministic fake model; not an authenticated production security boundary or a live-model evaluation.
 
 ### [video2doc-ai Community](https://github.com/kibnelbachyr/video2doc-ai-community)
@@ -26,9 +26,19 @@ An experimental reference implementation exploring how AI recommendations can be
 
 An experimental video-to-documentation pipeline combining timestamped media extraction, structured documentation generation, a FastAPI service and Azure infrastructure templates. Its credential-free baseline separates offline component verification from live-model evaluation.
 
-- [v0.1.0 experimental release](https://github.com/kibnelbachyr/video2doc-ai-community/releases/tag/v0.1.0) · Apache-2.0
-- [Verified CI](https://github.com/kibnelbachyr/video2doc-ai-community/actions/runs/45768702818): 9 Python and 3 JavaScript regression tests, real synthetic-media processing and Python dependency advisory checks.
+- [v0.2.0 experimental release](https://github.com/kibnelbachyr/video2doc-ai-community/releases/tag/v0.2.0) · Apache-2.0
+- [Verified CI](https://github.com/kibnelbachyr/video2doc-ai-community/actions/runs/45911493736): 28 Python and 3 JavaScript regression tests; synthetic-media processing, 20 evaluator outcomes and dependency checks.
 - Live-model quality, production security, scalability and cost remain unvalidated.
+
+### [Azure Cost Intelligence](https://github.com/kibnelbachyr/azure-cost-intelligence)
+
+**Cloud economics · FinOps · Evidence-driven recommendations**
+
+An experimental reference implementation for reproducible cloud cost analysis and bounded recommendations, evaluated with fictional scenarios rather than live Azure billing data.
+
+- [v0.1.0 experimental release](https://github.com/kibnelbachyr/azure-cost-intelligence/releases/tag/v0.1.0) · Apache-2.0
+- [Verified CI](https://github.com/kibnelbachyr/azure-cost-intelligence/actions/runs/45905332238): 48 regression tests, 19 synthetic scenarios, 57 scenario executions and 507 checks.
+- No live Azure or model validation; not a production cost-saving guarantee.
 
 ## Engineering interests
 
@@ -41,7 +51,7 @@ An experimental video-to-documentation pipeline combining timestamped media extr
 
 ## Exploring next
 
-AI-assisted cloud cost optimization, evidence-driven incident diagnosis, governed infrastructure automation and LLM gateways. These are research and development directions, not claims of completed or production-ready systems.
+Evidence-driven incident diagnosis, governed infrastructure automation and LLM gateways. These are research and development directions, not claims of completed or production-ready systems.
 
 ## Engineering principles
 
