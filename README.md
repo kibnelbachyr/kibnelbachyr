@@ -4,7 +4,7 @@
 
 ![From infrastructure to intelligence. Cloud systems, applied AI and engineering judgment.](assets/engineering-banner.svg)
 
-I lead cloud, data and AI services in France. My background is in platform engineering. I’m interested in the decisions that make a system worth trusting: who can authorize a change, which cost estimates hold up, and what a test actually proves.
+I came up through engineering. I’m still drawn to the distance between a compelling prototype and a system people can depend on. Building and running platforms taught me to ask whose assumptions a design carries and who has to live with them when they turn out to be wrong. That question follows me into AI, especially when a system can act on someone else’s behalf.
 
 ## Selected projects
 
