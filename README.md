@@ -4,9 +4,9 @@
 
 ![From infrastructure to intelligence — cloud systems, applied AI and engineering judgment](assets/engineering-banner.svg)
 
-I lead engineering work at the intersection of cloud platforms, data, AI and technology strategy. I am interested in the distance between a compelling prototype and a system an enterprise can actually depend on — and in the architectural, economic and governance decisions that close that gap.
+I came up through engineering and now lead cloud, data and AI services. My work connects platform architecture, cloud economics and applied AI with the decisions that make systems reliable, governable and useful.
 
-My work spans infrastructure through intelligence: designing resilient platforms, making AI systems governable, and connecting technical decisions to measurable business value.
+I am interested in the distance between a convincing prototype and a system an enterprise can depend on. The projects below make that question concrete through reproducible experiments, explicit boundaries and evidence.
 
 ## Selected engineering work
 
@@ -14,31 +14,33 @@ My work spans infrastructure through intelligence: designing resilient platforms
 
 **Agentic AI · Control-plane engineering · Human authorization**
 
-An experimental reference implementation exploring how AI recommendations can be separated from execution authority. It demonstrates deterministic policy enforcement, simulated human approval bound to recommendation evidence, replay protection and application-level audit records.
+Explore how an AI recommendation can remain separate from execution authority. Try an offline fictional retention change, approve or reject it, and inspect the decision record.
 
-- [v0.4.0 experimental release](https://github.com/kibnelbachyr/governed-agent-lab-public/releases/tag/v0.4.0) · Apache-2.0
-- [Verified CI](https://github.com/kibnelbachyr/governed-agent-lab-public/actions/runs/45909054667): 51 unit tests, 31 synthetic scenarios and two smoke tests on each of Python 3.11 and 3.13.
-- Uses a deterministic fake model; not an authenticated production security boundary or a live-model evaluation.
+[Quickstart](https://github.com/kibnelbachyr/governed-agent-lab-public/blob/main/README.md) · [v0.4.0 experimental pre-release](https://github.com/kibnelbachyr/governed-agent-lab-public/releases/tag/v0.4.0) · [CI evidence](https://github.com/kibnelbachyr/governed-agent-lab-public/actions/runs/45909054667)
 
-### [video2doc-ai Community](https://github.com/kibnelbachyr/video2doc-ai-community)
-
-**Multimodal AI · Pipeline architecture · Reproducible engineering**
-
-An experimental video-to-documentation pipeline combining timestamped media extraction, structured documentation generation, a FastAPI service and Azure infrastructure templates. Its credential-free baseline separates offline component verification from live-model evaluation.
-
-- [v0.2.0 experimental release](https://github.com/kibnelbachyr/video2doc-ai-community/releases/tag/v0.2.0) · Apache-2.0
-- [Verified CI](https://github.com/kibnelbachyr/video2doc-ai-community/actions/runs/45911493736): 28 Python and 3 JavaScript regression tests; synthetic-media processing, 20 evaluator outcomes and dependency checks.
-- Live-model quality, production security, scalability and cost remain unvalidated.
+51 unit tests and 31 synthetic scenarios per Python interpreter. No live model or authenticated production security boundary.
 
 ### [Azure Cost Intelligence](https://github.com/kibnelbachyr/azure-cost-intelligence)
 
 **Cloud economics · FinOps · Evidence-driven recommendations**
 
-An experimental reference implementation for reproducible cloud cost analysis and bounded recommendations, evaluated with fictional scenarios rather than live Azure billing data.
+Evaluate a deterministic financial evidence layer and bounded AI-assisted recommendations using fictional cost data. Try the offline conformance evaluation; no Azure account is required.
 
-- [v0.1.0 experimental release](https://github.com/kibnelbachyr/azure-cost-intelligence/releases/tag/v0.1.0) · Apache-2.0
-- [Verified CI](https://github.com/kibnelbachyr/azure-cost-intelligence/actions/runs/45905332238): 48 regression tests, 19 synthetic scenarios, 57 scenario executions and 507 checks.
-- No live Azure or model validation; not a production cost-saving guarantee.
+[Quickstart](https://github.com/kibnelbachyr/azure-cost-intelligence#quickstart--evaluate-fictional-cost-data) · [v0.1.0 experimental pre-release](https://github.com/kibnelbachyr/azure-cost-intelligence/releases/tag/v0.1.0) · [Release evidence](https://github.com/kibnelbachyr/azure-cost-intelligence/blob/main/docs/evidence/v0.1.0.md)
+
+48 tests, 19 scenarios and 507 checks across 57 repeated executions. No live Azure/model validation or realized savings claim.
+
+### [Video2Doc AI Community](https://github.com/kibnelbachyr/video2doc-ai-community)
+
+**Multimodal AI · Knowledge · Pipeline engineering**
+
+Explore a video-to-Markdown architecture combining speech transcription, visual context and structured documentation. Try the credential-free mock CLI or local API; the mock output is fictional, not actual video analysis.
+
+[Quickstart](https://github.com/kibnelbachyr/video2doc-ai-community/blob/main/README.md) · [v0.2.0 experimental pre-release](https://github.com/kibnelbachyr/video2doc-ai-community/releases/tag/v0.2.0) · [CI evidence](https://github.com/kibnelbachyr/video2doc-ai-community/actions/runs/45911493736)
+
+28 Python and 3 JavaScript tests, synthetic-media processing and offline evaluator self-tests. Live quality, production security and cost remain unvalidated.
+
+All three releases are experimental and Apache-2.0 licensed. Their evidence is deliberately scoped to reproducible offline behavior.
 
 ## Engineering interests
 
